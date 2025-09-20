@@ -19,11 +19,11 @@ class MakeTxt():
         with open(self.json_path, 'r') as f:
             data = json.load(f)
         #print(1)
-        # 创建images文件夹（如果不存在）
+        # 创建labels文件夹（如果不存在）
         images_dir = Path('labels')
         images_dir.mkdir(exist_ok=True)
         
-        # 创建labels文件夹（如果不存在）
+        # 创建labels子文件夹（如果不存在）
         labels_dir = images_dir / 'labels'
         labels_dir.mkdir(exist_ok=True)
         
