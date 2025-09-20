@@ -46,7 +46,7 @@ def main(checkpoint_path, model_type, device, images_folder, embeddings_folder):
         np.save(embedding_path, image_embedding)    
 
 if __name__ == "__main__":
-    os.environ["QT_QPA_PLATFORM_PLUGIN_PATH"] = "/home/west-dj/anaconda3/envs/py38/lib/python3.8/site-packages/PyQt5/Qt5/plugins" #虚拟环境使用pyqt5需要添加并修改此路径
+    #os.environ["QT_QPA_PLATFORM_PLUGIN_PATH"] = "/home/west-dj/anaconda3/envs/py38/lib/python3.8/site-packages/PyQt5/Qt5/plugins" #虚拟环境使用pyqt5需要添加并修改此路径
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--onnx-model-path", type=str, default="./sam_onnx.onnx")
