@@ -8,8 +8,8 @@ https://github.com/facebookresearch/segment-anything 库 也为开源项目
 ###1.1 源参考项目1：https://github.com/zhouayi/SAM-Tool -----可以不git，感兴趣的可以做参考
 ####   up主项目1：https://github.com/573951579/Automatic-annotation-too   -----视频中项目
 ###1.2 项目2：https://github.com/facebookresearch/segment-anything  -----sam1基本库
-```bash https://github.com/573951579/Automatic-annotation-too.git
-git clone 
+```bash 
+git clone https://github.com/573951579/Automatic-annotation-too.git
 ###
 git clone https://github.com/facebookresearch/segment-anything.git
 cd segment-anything
