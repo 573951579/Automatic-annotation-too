@@ -26,7 +26,7 @@ Non project environment missing, such as torch, PyQt5, and other relevant missin
 #####3.2 Run 'generate_onnx. py' to convert the 'pth' file to the 'onnx' model file
 ```bash
 #Cd to the main directory of project 1
-python helpers\generate_onnx.py --checkpoint-path sam_vit_h_4b8939.pth --onnx-model-path ./sam_onnx.onnx --orig-im-size 1080 1920
+python helpers/generate_onnx.py --checkpoint-path sam_vit_h_4b8939.pth --onnx-model-path ./sam_onnx.onnx --orig-im-size 1080 1920
 ```
 -'checkpoint path': the same 'SAM' model path code has added a relative path
 -'onnx model path': the saved path of the 'onnx' model obtained
