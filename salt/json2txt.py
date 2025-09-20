@@ -20,7 +20,7 @@ class MakeTxt():
             data = json.load(f)
         #print(1)
         # 创建images文件夹（如果不存在）
-        images_dir = Path('images')
+        images_dir = Path('labels')
         images_dir.mkdir(exist_ok=True)
         
         # 创建labels文件夹（如果不存在）
