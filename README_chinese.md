@@ -30,7 +30,7 @@ pip install -e .
 
 ```bash
 # cd到项目1的主目录下
-python helpers\generate_onnx.py --checkpoint-path sam_vit_h_4b8939.pth --onnx-model-path ./sam_onnx.onnx --orig-im-size 1080 1920
+python helpers/generate_onnx.py --checkpoint-path sam_vit_h_4b8939.pth --onnx-model-path ./sam_onnx.onnx --orig-im-size 1080 1920
 ```
 
 - `checkpoint-path`：同样的`SAM`模型路径代码中已添加相对路径
