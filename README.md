@@ -8,8 +8,8 @@ This project has always been free of charge for data tagging, yolo and other rel
 ###1.1 Source Reference Item 1: https://github.com/zhouayi/SAM-Tool -----Can you do git or not? If you are interested, you can refer to it
 ####Up main project 1: https://github.com/573951579/Automatic-annotation-too -----Items in video
 ###1.2 Item 2: https://github.com/facebookresearch/segment-anything -----Sam1 basic library
-```bash  https://github.com/573951579/Automatic-annotation-too.git
-git clone 
+```bash  
+git clone https://github.com/573951579/Automatic-annotation-too.git
 ###
 git clone  https://github.com/facebookresearch/segment-anything.git
 cd segment-anything
